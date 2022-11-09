@@ -37,7 +37,8 @@ aside h3 {
     padding: 9px;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
-    margin: -9px -9px 0px -9px;
+    margin: -9px -19px -9px -19px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.438);
 }
 p {
     font-family: var(--fontpadrao);
@@ -48,7 +49,7 @@ p {
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     height: 150px;
-    padding: 19px;
+    padding: 23px 0px 29px 0px;
 }
 header h1 {
     text-align: center;
@@ -89,19 +90,51 @@ main {
     margin: auto;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);
 }
+img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#mg3 {
+    width: 39%;
+}
 article {
     margin: auto;
     padding: 9px;
+    min-width: 299px;
+    max-width: 799px;
+}
+strong {
+    color: var(--cor5
+    );
+}
+article a {
+    color: var(--cor6);
+    font-family: var(--fontpadrao);
+    font-family: bold;
+    text-decoration: none;
+}
+article a::after {
+    content: '\1F517';
+}
+article iframe{
+    display: block;
+    margin: auto;
+    padding: 19px;
+    width: 89%;
+
 }
 aside {
     background-color: var(--cor1);
     padding: 9px;
     border-radius: 9px;
+    margin-bottom: 9px;
 }
 aside ul {
     list-style-position: inside;
     columns: 2;
     padding: 9px 0px 5px 0px;
+    list-style-type: '\2714';
 }
 aside p {
     font-family: var(--fontpadrao);
